@@ -109,3 +109,35 @@ hr{
 .fa-star.empty{
     color:#AEAEAE;
 }
+
+/*-------
+Media Quries 
+-------------*/
+
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+        padding: 20px;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        flex-direction: column;
+    }
+  
+}
+/* Tablate Devices */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    main{
+        padding: 100px;
+    }
+    .container{
+        width: 100%;
+        padding: 50px;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
