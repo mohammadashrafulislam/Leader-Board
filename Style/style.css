@@ -157,10 +157,12 @@ Media Quries
     .container{
         width: 100%;
         padding: 20px;
+        
     }
     .nav{
-        gap: 10px;
-        width: 105%;
+        gap: 0;
+        width: 100%;
+        padding: 20px;
     }
     
     .nav-right li{
