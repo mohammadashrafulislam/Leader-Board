@@ -179,6 +179,7 @@ Media Quries
     }
     .players, .blogs, .courses{
         grid-template-columns: repeat(1, 1fr);
+        padding-right: 30px;
     }
     .player{
         flex-direction: column;
