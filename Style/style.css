@@ -138,6 +138,11 @@ hr{
     align-items: center;
     justify-content: space-between;
 }
+.course-duration {
+    background: #FFE4E8;
+    padding: 2px 5px;
+    border-radius: 14px;
+}
 .fa-star{
     font-size: 12px;
 }
